@@ -5,11 +5,11 @@ import Logo from "../../assets/images/logo.png";
 function Footer() {
   return (
     <div>
-      <div class="footer-dark">
+      <div className="footer-dark">
         <footer>
-          <div class="container ">
-            <div class="row d-flex justify-content-center">
-              <div class="col-sm-6 col-md-3 item ">
+          <div className="container ">
+            <div className="row d-flex justify-content-center">
+              <div className="col-sm-6 col-md-3 item ">
                 <img
                   src={Logo}
                   className="rounded mb-2"
@@ -30,7 +30,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div class="col-sm-6 col-md-3 item">
+              <div className="col-sm-6 col-md-3 item">
                 <h3>Protection</h3>
                 <ul>
                   <li>
@@ -44,7 +44,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div class="col-sm-6 col-md-3 item">
+              <div className="col-sm-6 col-md-3 item">
                 <h3>Legals</h3>
                 <ul>
                   <li>
@@ -58,7 +58,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div class="col-sm-6 col-md-3 item text">
+              <div className="col-sm-6 col-md-3 item text">
                 <h3>Contact Us</h3>
                 <ul>
                   <li>

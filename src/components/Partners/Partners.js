@@ -139,50 +139,50 @@ function Partners() {
             </div>
             <div
               id="carouselExampleControls"
-              class="carousel slide"
+              className="carousel slide"
               data-bs-ride="carousel"
               style={{ height: "500px", width: "400px" }}
             >
               <div>
-                <div class="carousel-item active" data-bs-interval="200000">
-                  <img src={image1} class="d-block w-100" alt="..." />
+                <div className="carousel-item active" data-bs-interval="200000">
+                  <img src={image1} className="d-block w-100" alt="..." />
                 </div>
-                <div class="carousel-item " data-bs-interval="200000">
-                  <img src={image2} class="d-block w-100" alt="..." />
+                <div className="carousel-item " data-bs-interval="200000">
+                  <img src={image2} className="d-block w-100" alt="..." />
                 </div>
-                <div class="carousel-item " data-bs-interval="200000">
-                  <img src={image3} class="d-block w-100" alt="..." />
+                <div className="carousel-item " data-bs-interval="200000">
+                  <img src={image3} className="d-block w-100" alt="..." />
                 </div>
-                <div class="carousel-item " data-bs-interval="200000">
-                  <img src={image4} class="d-block w-100" alt="..." />
+                <div className="carousel-item " data-bs-interval="200000">
+                  <img src={image4} className="d-block w-100" alt="..." />
                 </div>
-                <div class="carousel-item" data-bs-interval="200000">
-                  <img src={image5} class="d-block w-100" alt="..." />
+                <div className="carousel-item" data-bs-interval="200000">
+                  <img src={image5} className="d-block w-100" alt="..." />
                 </div>
               </div>
               <button
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 type="button"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Previous</span>
+                <span className="visually-hidden">Previous</span>
               </button>
               <button
-                class="carousel-control-next"
+                className="carousel-control-next"
                 type="button"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  className="carousel-control-next-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Next</span>
+                <span className="visually-hidden">Next</span>
               </button>
             </div>
           </div>
