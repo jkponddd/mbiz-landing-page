@@ -1,0 +1,56 @@
+.card-Partners {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 40px;
+    height: 60px;
+    width: 150px;
+    background-color: white;
+}
+
+.title-Partners {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title1-Partners {
+    height: auto;
+    width: 300px;
+    margin: auto 0;
+}
+
+
+.con-Partners {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.card-Partners-Text {
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+
+}
+
+.card-con-Partners {
+    height: 120px;
+    width: auto;
+}
+
+.img-Partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+}

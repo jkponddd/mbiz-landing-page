@@ -1,0 +1,22 @@
+.card-con {
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    text-align: start;
+    border-radius: 40px;
+}
+
+.title-con {
+    margin-top: 600px;
+    margin-bottom: 100px;
+}
+
+.card-context {
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+
+}

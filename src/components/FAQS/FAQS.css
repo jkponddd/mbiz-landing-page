@@ -1,0 +1,68 @@
+.bg-FAQS {
+    /* background: url("../../assets/images/bgFAQS.png") no-repeat center center; */
+    background-color: #F2F3F7;
+}
+
+.title-FAQS {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-FAQS {
+    background-color: #F2F3F7;
+    height: 50px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #F2F3F7;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #cccccc;
+}
+
+.btn-FAQS {
+    background-color: #F2F3F7;
+    border: 1px solid #F2F3F7;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #8490A4;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 5px 5px 10px #cccccc;
+
+
+}
+
+.FAQS-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    width: 100%;
+    height: auto;
+
+}
+
+/* .card-FAQS-No {
+    background-color: #F2F3F7;
+    height: 50px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #F2F3F7;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #cccccc;
+} */
