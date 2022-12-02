@@ -34,13 +34,13 @@ function Footer() {
                 <h3>Protection</h3>
                 <ul>
                   <li>
-                    <a href="#">Security & Safety</a>
+                    <a href="/">Security & Safety</a>
                   </li>
                   <li>
-                    <a href="#">Mornitoring</a>
+                    <a href="/">Mornitoring</a>
                   </li>
                   <li>
-                    <a href="#">Management</a>
+                    <a href="/">Management</a>
                   </li>
                 </ul>
               </div>
@@ -48,13 +48,13 @@ function Footer() {
                 <h3>Legals</h3>
                 <ul>
                   <li>
-                    <a href="#">Refund Policy</a>
+                    <a href="/">Refund Policy</a>
                   </li>
                   <li>
-                    <a href="#">Licence</a>
+                    <a href="/">Licence</a>
                   </li>
                   <li>
-                    <a href="#">Privacy</a>
+                    <a href="/">Privacy</a>
                   </li>
                 </ul>
               </div>
@@ -62,13 +62,13 @@ function Footer() {
                 <h3>Contact Us</h3>
                 <ul>
                   <li>
-                    <a href="#">Email join-@themall.co.th</a>
+                    <a href="/">Email join-@themall.co.th</a>
                   </li>
                   <li>
-                    <a href="#">Phone +(66) 8 980 - 3049</a>
+                    <a href="/">Phone +(66) 8 980 - 3049</a>
                   </li>
                   <li>
-                    <a href="#">Address Themall Bangkok</a>
+                    <a href="/">Address Themall Bangkok</a>
                   </li>
                 </ul>
               </div>

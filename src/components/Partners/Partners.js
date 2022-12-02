@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Partners.css";
 
 import adidas from "../../assets/images/adidas.png";
@@ -27,7 +27,6 @@ import image4 from "../../assets/images/image4.png";
 import image5 from "../../assets/images/image5.png";
 
 function Partners() {
-  const [currImg, setCurrImg] = useState(0);
   let data = {
     title1: "M Business Partners",
   };

@@ -14,7 +14,7 @@ function Header() {
           style={{ background: "none" }}
         >
           <div className="container-fluid position-absolute top-0 my-3">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
               <img src={Logo} className="rounded float-start" alt="..." />
             </a>
             <button
