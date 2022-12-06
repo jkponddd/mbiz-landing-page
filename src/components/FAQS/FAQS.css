@@ -15,12 +15,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #F2F3F7;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 20px;
-    box-shadow: 10px 10px 20px #cccccc;
+    /* box-shadow: 10px 10px 20px #cccccc; */
+}
+
+.shadow-FAQS {
+    border: 0;
+    box-shadow: -5px -5px 10px #f8f8f8f3, 5px 5px 20px #7a7a7a85;
 }
 
 .btn-FAQS {

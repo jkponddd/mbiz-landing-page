@@ -1,0 +1,7 @@
+.headerimage {
+    height: auto;
+    background-image: url(../../assets/images/bgheader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}

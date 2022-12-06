@@ -14,8 +14,8 @@ function Content() {
         id="Service"
         style={{ height: "auto", width: "100%", background: "#DDDDDD" }}
       >
-        <div className="container title-con">
-          <div className="card card-con">
+        <div className="container title-con ">
+          <div className="card card-con shadow-con">
             <h2 className="card-context fw-bold">{data.titleB1}</h2>
             <p className="card-context">{data.titleB2}</p>
           </div>

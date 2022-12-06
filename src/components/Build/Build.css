@@ -53,3 +53,8 @@
     width: 220px;
     background-color: white;
 }
+
+.shadow-Build {
+    border: 0;
+    box-shadow: -5px -5px 10px #f8f8f8f3, 5px 5px 20px #7a7a7a85;
+}

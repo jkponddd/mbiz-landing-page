@@ -109,19 +109,19 @@ function Partners() {
             <div className="d-flex mb-5">
               <h1 className="title1-Partners fw-bold">{data.title1}</h1>
               <div className="d-flex flex-wrap justify-content-end">
-                <div className="card-Partners m-3 ">
+                <div className="card-Partners m-3 shadow-Partners">
                   <p className="card-text  fw-bold">{Partners.Partner1}</p>
                 </div>
-                <div className="card-Partners m-3">
+                <div className="card-Partners m-3 shadow-Partners">
                   <p className="card-text ">{Partners.Partner2}</p>
                 </div>
-                <div className="card-Partners m-3">
+                <div className="card-Partners m-3 shadow-Partners">
                   <p className="card-text">{Partners.Partner3}</p>
                 </div>
-                <div className="card-Partners m-3">
+                <div className="card-Partners m-3 shadow-Partners">
                   <p className="card-text">{Partners.Partner4}</p>
                 </div>
-                <div className="card-Partners m-3">
+                <div className="card-Partners m-3 shadow-Partners">
                   <p className="card-text">{Partners.Partner5}</p>
                 </div>
               </div>
@@ -131,7 +131,7 @@ function Partners() {
               style={{ height: "auto", width: "85%" }}
             >
               {dataImage.map((item) => (
-                <div key={item.image} className="img-Partners m-3">
+                <div key={item.image} className="img-Partners m-3 ">
                   <img src={item.image} alt="..." />
                 </div>
               ))}

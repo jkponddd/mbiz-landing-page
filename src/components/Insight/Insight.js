@@ -25,7 +25,7 @@ function Insight() {
           <div className="title-Insight">
             <h1 className="title1-Insight fw-bold">{data.title1}</h1>
             <div className="d-flex flex-wrap justify-content-end">
-              <div className="card-Insight m-3">
+              <div className="card-Insight shadow-Insight m-3">
                 <div>
                   <div>
                     <img className="img-Insight" src={ads} alt="..." />
@@ -33,7 +33,7 @@ function Insight() {
                   <p className="card-text fw-bold">Sponsored Ads</p>
                 </div>
               </div>
-              <div className="card-Insight m-3">
+              <div className="card-Insight shadow-Insight m-3">
                 <div>
                   <div>
                     <img className="img-Insight" src={advertotial} alt="..." />
@@ -41,7 +41,7 @@ function Insight() {
                   <p className="card-text">Sponsored Advertotial</p>
                 </div>
               </div>
-              <div className="card-Insight m-3">
+              <div className="card-Insight shadow-Insight m-3">
                 <div>
                   <div>
                     <img className="img-Insight" src={shopping} alt="..." />
@@ -52,7 +52,7 @@ function Insight() {
             </div>
           </div>
           <div className="d-flex justify-content-start">
-            <div className="card con-Insight card-Insight-btm ">
+            <div className="card con-Insight card-Insight-btm shadow-Insight">
               <h2 className="card-Insight-Text fw-bold">{data.titleB1}</h2>
               <p className="card-Insight-Text">{data.titleB2}</p>
               <p className="card-Insight-Text">

@@ -20,10 +20,10 @@ function Build() {
         style={{ height: "auto", width: "100%", background: "#EEEEEE" }}
       >
         <div className="container">
-          <div className="title-Build">
+          <div className="title-Build ">
             <h1 className="title1-Build fw-bold">{data.title1}</h1>
             <div className="d-flex flex-wrap justify-content-end">
-              <div className="card-Build m-3">
+              <div className="card-Build shadow-Build m-3">
                 <div>
                   <div>
                     <img className="img-Build" src={EarnBurn} alt="..." />
@@ -31,7 +31,7 @@ function Build() {
                   <p className="card-text fw-bold">M Point Earn & Burn</p>
                 </div>
               </div>
-              <div className="card-Build m-3">
+              <div className="card-Build shadow-Build m-3">
                 <div>
                   <div>
                     <img className="img-Build" src={MStamp} alt="..." />
@@ -39,7 +39,7 @@ function Build() {
                   <p className="card-text ">M Stamp</p>
                 </div>
               </div>
-              <div className="card-Build m-3">
+              <div className="card-Build shadow-Build m-3">
                 <div>
                   <div>
                     <img className="img-Build" src={MCoupon} alt="..." />
@@ -50,7 +50,7 @@ function Build() {
             </div>
           </div>
           <div className="d-flex justify-content-end">
-            <div className="card con-Build card-Build-btm ">
+            <div className="card con-Build card-Build-btm shadow-Build">
               <h2 className="card-Build-Text fw-bold">{data.titleB1}</h2>
               <p className="card-Build-Text">{data.titleB2}</p>
               <p className="card-Build-Text">{data.titleB3}</p>

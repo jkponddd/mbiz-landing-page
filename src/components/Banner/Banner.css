@@ -9,12 +9,20 @@
 }
 
 .card-Banner {
-  width: 63%;
+  width: 65%;
+  background-color: rgb(255, 255, 255);
+  height: auto;
   margin: 0 auto;
-  padding: 20px;
   display: flex;
+  padding: 40px 20px;
+  align-items: center;
   text-align: center;
   border-radius: 40px;
+}
+
+.shadow-Banner {
+  border: 0;
+  box-shadow: -5px -5px 20px #fffffff3, 5px 5px 20px #3a3a3a7e;
 }
 
 .card-Text {
@@ -37,4 +45,12 @@
 
 .card-Ban {
   border-radius: 40px;
+}
+
+.bannerimage {
+  height: auto;
+  background-image: url(../../assets/images/bghome.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
 }

@@ -5,6 +5,7 @@ import m from "../../assets/images/5M.png";
 import peple from "../../assets/images/peple.png";
 import globe from "../../assets/images/globe.png";
 import chart from "../../assets/images/chart.png";
+import bghome from "../../assets/images/bghome.png";
 
 function Banner() {
   let data = {
@@ -39,11 +40,7 @@ function Banner() {
   ];
   return (
     <>
-      <div
-        className="bg-secondary  d-flex align-items-center "
-        id="Home"
-        style={{ height: "auto", width: "100%" }}
-      >
+      <div className="bannerimage d-flex align-items-center " id="Home">
         <div className="container">
           <div className="title text-light">
             <h1>{data.title1}</h1>
@@ -55,15 +52,17 @@ function Banner() {
               Login / Register
             </button>
           </div>
-          <div className="card card-Banner">
-            <h2 className="card-title fw-bold">{data.titleB1}</h2>
-            <p className="card-Text">{data.titleB2}</p>
+          <div className="card-Banner shadow-Banner">
+            <div>
+              <h2 className="card-title fw-bold">{data.titleB1}</h2>
+              <p className="card-Text">{data.titleB2}</p>
+            </div>
           </div>
           <div className="d-flex align-content-center justify-content-center flex-wrap my-3">
             {dataCard.map((item) => (
               <div
                 key={item.title1}
-                className="card card-Ban m-3"
+                className="card card-Ban m-4 shadow-Banner"
                 style={{ height: "250px", width: "230px" }}
               >
                 <div className="card-body text-center">
