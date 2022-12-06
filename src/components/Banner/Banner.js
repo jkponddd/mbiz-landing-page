@@ -5,7 +5,6 @@ import m from "../../assets/images/5M.png";
 import peple from "../../assets/images/peple.png";
 import globe from "../../assets/images/globe.png";
 import chart from "../../assets/images/chart.png";
-import bghome from "../../assets/images/bghome.png";
 
 function Banner() {
   let data = {
