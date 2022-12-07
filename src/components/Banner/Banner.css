@@ -48,9 +48,10 @@
 }
 
 .bannerimage {
-  height: auto;
-  background-image: url(../../assets/images/bghome.png);
+  background-image: url(../../assets/images/bgbanner.png);
   background-repeat: no-repeat;
+  height: auto;
   background-size: cover;
-  /* background-position: center; */
+  background-position: center;
+  overflow: hidden;
 }

@@ -6,19 +6,20 @@
     border-radius: 40px;
 }
 
-.title-Insight {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: space-between;
+.container-Insight {
     margin-top: 100px;
     margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.title1-Insight {
+.title-Insight {
     height: auto;
-    width: 300px;
-    margin: auto 0;
+    width: 400px;
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -55,7 +56,78 @@
     background-color: white;
 }
 
+.card-Insight-bottom {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-Insight-out {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .shadow-Insight {
     border: 0;
     box-shadow: -5px -5px 10px #f8f8f8f3, 5px 5px 20px #7a7a7a85;
+}
+
+.insightimage {
+    background-image: url(../../assets/images/bginsight.png);
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width:1400px) {
+    .card-Insight {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        border-radius: 40px;
+        height: 120px;
+        width: 280px;
+        background-color: white;
+
+    }
+
+    .card-Insight-btm {
+        width: 70%;
+        padding: 20px;
+        display: flex;
+        text-align: start;
+        border-radius: 40px;
+
+    }
+
+    .container-Insight {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-Insight-out {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-Insight {
+        display: flex;
+        text-align: center;
+    }
+
+    .card-Insight-bottom {
+        display: flex;
+        justify-content: center;
+    }
+
+    .con-Insight {
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+
 }

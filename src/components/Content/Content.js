@@ -9,11 +9,7 @@ function Content() {
   };
   return (
     <>
-      <div
-        className=" d-flex align-items-center"
-        id="Service"
-        style={{ height: "auto", width: "100%", background: "#DDDDDD" }}
-      >
+      <div className="conimage" id="Service">
         <div className="container title-con ">
           <div className="card card-con shadow-con">
             <h2 className="card-context fw-bold">{data.titleB1}</h2>

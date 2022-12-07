@@ -25,3 +25,28 @@
     border: 0;
     box-shadow: -5px -5px 20px #fffffff3, 5px 5px 20px #5e5e5e7e;
 }
+
+.conimage {
+    background-image: url(../../assets/images/bgcontent.png);
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width:1200px) {
+
+    .title-con {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-con {
+        width: 60%;
+        padding: 20px;
+        display: flex;
+        text-align: start;
+        border-radius: 40px;
+    }
+}

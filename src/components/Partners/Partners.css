@@ -1,3 +1,9 @@
+.bg-Partners {
+    /* background: url("../../assets/images/bgFAQS.png") no-repeat center center; */
+    background-color: #f8f9fa;
+    overflow: hidden;
+}
+
 .card-Partners {
     display: flex;
     justify-content: center;

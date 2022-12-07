@@ -15,20 +15,19 @@ function Build() {
   };
   return (
     <>
-      <div
-        className=" d-flex align-items-start flex-column"
-        style={{ height: "auto", width: "100%", background: "#EEEEEE" }}
-      >
-        <div className="container">
-          <div className="title-Build ">
-            <h1 className="title1-Build fw-bold">{data.title1}</h1>
-            <div className="d-flex flex-wrap justify-content-end">
+      <div className="buildimage" id="Benefit">
+        <div className="container ">
+          <div className="container-Build">
+            <div className="title-Build m-5">
+              <h1 className="fw-bold m-0">{data.title1}</h1>
+            </div>
+            <div className="card-Build-out">
               <div className="card-Build shadow-Build m-3">
                 <div>
                   <div>
                     <img className="img-Build" src={EarnBurn} alt="..." />
                   </div>
-                  <p className="card-text fw-bold">M Point Earn & Burn</p>
+                  <p className="card-text fw-bold">Sponsored Ads</p>
                 </div>
               </div>
               <div className="card-Build shadow-Build m-3">
@@ -36,7 +35,7 @@ function Build() {
                   <div>
                     <img className="img-Build" src={MStamp} alt="..." />
                   </div>
-                  <p className="card-text ">M Stamp</p>
+                  <p className="card-text">Sponsored Advertotial</p>
                 </div>
               </div>
               <div className="card-Build shadow-Build m-3">
@@ -44,16 +43,20 @@ function Build() {
                   <div>
                     <img className="img-Build" src={MCoupon} alt="..." />
                   </div>
-                  <p className="card-text ">M Coupon</p>
+                  <p className="card-text">Shopping Build</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="d-flex justify-content-end">
+          <div className="card-Build-bottom">
             <div className="card con-Build card-Build-btm shadow-Build">
               <h2 className="card-Build-Text fw-bold">{data.titleB1}</h2>
               <p className="card-Build-Text">{data.titleB2}</p>
-              <p className="card-Build-Text">{data.titleB3}</p>
+              <p className="card-Build-Text">
+                {data.titleB3}
+                <br />
+                {data.titleB4}
+              </p>
             </div>
           </div>
         </div>

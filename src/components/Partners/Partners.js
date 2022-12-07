@@ -100,15 +100,17 @@ function Partners() {
   return (
     <>
       <div
-        className="bg-light  d-flex "
+        className="bg-Partners"
         id="Partner"
         style={{ height: "auto", width: "100%" }}
       >
         <div className="container">
           <div className="title-Partners flex-column align-items-center ">
-            <div className="d-flex mb-5">
-              <h1 className="title1-Partners fw-bold">{data.title1}</h1>
-              <div className="d-flex flex-wrap justify-content-end">
+            <div className="d-flex  justify-content-between mb-5">
+              <div>
+                <h1 className="title1-Partners fw-bold">{data.title1}</h1>
+              </div>
+              <div className="d-flex flex-wrap ">
                 <div className="card-Partners m-3 shadow-Partners">
                   <p className="card-text  fw-bold">{Partners.Partner1}</p>
                 </div>

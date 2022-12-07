@@ -16,15 +16,13 @@ function Insight() {
   };
   return (
     <>
-      <div
-        className="  d-flex align-items-start flex-column"
-        id="Benefit"
-        style={{ height: "auto", width: "100%", background: "#EEEEEE" }}
-      >
+      <div className="insightimage" id="Benefit">
         <div className="container ">
-          <div className="title-Insight">
-            <h1 className="title1-Insight fw-bold">{data.title1}</h1>
-            <div className="d-flex flex-wrap justify-content-end">
+          <div className="container-Insight">
+            <div className="title-Insight m-5">
+              <h1 className="fw-bold m-0">{data.title1}</h1>
+            </div>
+            <div className="card-Insight-out">
               <div className="card-Insight shadow-Insight m-3">
                 <div>
                   <div>
@@ -51,7 +49,7 @@ function Insight() {
               </div>
             </div>
           </div>
-          <div className="d-flex justify-content-start">
+          <div className="card-Insight-bottom">
             <div className="card con-Insight card-Insight-btm shadow-Insight">
               <h2 className="card-Insight-Text fw-bold">{data.titleB1}</h2>
               <p className="card-Insight-Text">{data.titleB2}</p>

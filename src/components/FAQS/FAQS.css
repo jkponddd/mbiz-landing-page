@@ -1,11 +1,26 @@
 .bg-FAQS {
-    /* background: url("../../assets/images/bgFAQS.png") no-repeat center center; */
-    background-color: #F2F3F7;
+    background-image: url(../../assets/images/bgFAQS.png);
+    background-repeat: no-repeat;
+    /* height: 100%;
+    width: 100%; */
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    object-fit: fill;
 }
 
-.title-FAQS {
+.container-FAQS {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.layout-FAQS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 550px;
+    width: 100%;
 }
 
 .card-FAQS {
@@ -45,28 +60,46 @@
 
 }
 
-.FAQS-con {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* background-color: aqua; */
-    width: 100%;
-    height: auto;
+@media screen and (max-width:1400px) {
+    .layout-FAQS {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+    }
 
 }
 
-/* .card-FAQS-No {
-    background-color: #F2F3F7;
-    height: 50px;
-    width: 550px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #F2F3F7;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding: 20px;
-    box-shadow: 10px 10px 20px #cccccc;
-} */
+@media screen and (max-width:768px) {
+    .card-FAQS {
+        background-color: #F2F3F7;
+        height: 50px;
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .card-FAQS {
+        background-color: #F2F3F7;
+        height: 50px;
+        width: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 20px;
+    }
+
+}

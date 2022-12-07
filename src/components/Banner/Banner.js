@@ -39,7 +39,7 @@ function Banner() {
   ];
   return (
     <>
-      <div className="bannerimage d-flex align-items-center " id="Home">
+      <div className="bannerimage" id="Home">
         <div className="container">
           <div className="title text-light">
             <h1>{data.title1}</h1>
