@@ -24,12 +24,23 @@
 }
 
 .card-FAQS {
-    background-color: #F2F3F7;
-    height: 50px;
+    background-color: #F2F3F5;
+    height: 60px;
     width: 550px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    /* box-shadow: 10px 10px 20px #cccccc; */
+}
+
+.card-no-FAQS {
+    background-color: #F2F3F5;
+    height: auto;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -39,12 +50,12 @@
 
 .shadow-FAQS {
     border: 0;
-    box-shadow: -5px -5px 10px #f8f8f8f3, 5px 5px 20px #7a7a7a85;
+    box-shadow: -5px -5px 20px #f8f8f8f3, 5px 5px 20px #7a7a7a85;
 }
 
 .btn-FAQS {
-    background-color: #F2F3F7;
-    border: 1px solid #F2F3F7;
+    background-color: #F2F3F5;
+    border: 1px solid #F2F3F5;
     height: 30px;
     width: 30px;
     padding: 0;
@@ -56,8 +67,29 @@
     font-weight: bold;
     font-size: large;
     box-shadow: 5px 5px 10px #cccccc;
+}
+
+.card-FAQS-off {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
+.card-FAQS-no {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lorem-FAQS {
+    /* background-color: aqua; */
+    width: 470px;
+    height: auto;
 }
 
 @media screen and (max-width:1400px) {
@@ -74,7 +106,7 @@
 
 @media screen and (max-width:768px) {
     .card-FAQS {
-        background-color: #F2F3F7;
+        background-color: #F2F3F5;
         height: 50px;
         width: 500px;
         display: flex;
@@ -90,7 +122,7 @@
 
 @media screen and (max-width:575px) {
     .card-FAQS {
-        background-color: #F2F3F7;
+        background-color: #F2F3F5;
         height: 50px;
         width: 450px;
         display: flex;

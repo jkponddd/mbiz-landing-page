@@ -12,43 +12,83 @@ function FAQS() {
             </div>
             <div className="layout-FAQS">
               <div className="card-FAQS shadow-FAQS mb-4">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                <button className="btn-FAQS">+</button>
+                <div className="card-FAQS-off">
+                  <p className="m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </p>
+                  <button className="btn-FAQS">+</button>
+                </div>
               </div>
-              <div
-                className="card-FAQS shadow-FAQS mb-4"
-                style={{ height: "200px" }}
-              >
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                <button className="btn-FAQS">+</button>
-              </div>
-              <div className="card-FAQS shadow-FAQS mb-4">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                <button className="btn-FAQS">+</button>
-              </div>
-              <div className="card-FAQS shadow-FAQS mb-4">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                <button className="btn-FAQS">+</button>
-              </div>
-              <div className="card-FAQS shadow-FAQS mb-4">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                <button className="btn-FAQS">+</button>
-              </div>
-              <div className="card-FAQS shadow-FAQS mb-4">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                <button className="btn-FAQS">+</button>
-              </div>
-              <div className="card-FAQS shadow-FAQS mb-4">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                <button className="btn-FAQS">+</button>
-              </div>
-              <div className="card-FAQS shadow-FAQS mb-4">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                <button className="btn-FAQS">+</button>
+              <div className="card-no-FAQS shadow-FAQS mb-4">
+                <div className="card-FAQS-no mb-3">
+                  <p className="m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </p>
+                  <button className="btn-FAQS">-</button>
+                </div>
+                <div className="lorem-FAQS">
+                  <p className="mb-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing Lorem
+                    ipsum dolor sit amet, consectetur adipiscingLorem ipsum
+                    dolor sit amet, consectetur adipiscingLorem ipsum dolor sit
+                    amet, consectetur adipiscingLorem ipsum dolor sit amet,
+                    consectetur adipiscingLorem ipsum dolor sit amet,
+                    consectetur adipiscin
+                  </p>
+                  <p className="m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscingLorem
+                    ipsum dolor sit amet, consectetur adipiscingLorem ipsum
+                    dolor sit amet, consectetur adipiscing
+                  </p>
+                </div>
               </div>
               <div className="card-FAQS shadow-FAQS mb-4">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                <button className="btn-FAQS">+</button>
+                <div className="card-FAQS-off">
+                  <p className="m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </p>
+                  <button className="btn-FAQS">+</button>
+                </div>
+              </div>
+              <div className="card-FAQS shadow-FAQS mb-4">
+                <div className="card-FAQS-off">
+                  <p className="m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </p>
+                  <button className="btn-FAQS">+</button>
+                </div>
+              </div>
+              <div className="card-FAQS shadow-FAQS mb-4">
+                <div className="card-FAQS-off">
+                  <p className="m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </p>
+                  <button className="btn-FAQS">+</button>
+                </div>
+              </div>
+              <div className="card-FAQS shadow-FAQS mb-4">
+                <div className="card-FAQS-off">
+                  <p className="m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </p>
+                  <button className="btn-FAQS">+</button>
+                </div>
+              </div>
+              <div className="card-FAQS shadow-FAQS mb-4">
+                <div className="card-FAQS-off">
+                  <p className="m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </p>
+                  <button className="btn-FAQS">+</button>
+                </div>
+              </div>
+              <div className="card-FAQS shadow-FAQS mb-4">
+                <div className="card-FAQS-off">
+                  <p className="m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </p>
+                  <button className="btn-FAQS">+</button>
+                </div>
               </div>
             </div>
           </div>
