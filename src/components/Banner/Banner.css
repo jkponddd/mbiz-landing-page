@@ -4,8 +4,8 @@
 }
 
 .title .btn-danger {
-  background-color: rgb(218, 12, 12);
-  border: 1px solid rgb(218, 12, 12);
+  background-color: rgba(218, 12, 12, 0.884);
+  border: 1px solid rgba(218, 12, 12, 0.884);
 }
 
 .title .btn-danger:hover {
@@ -20,7 +20,7 @@
 
 .card-Banner {
   width: 65%;
-  background-color: rgb(255, 255, 255);
+  background-color: #F2F3F5;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -32,8 +32,9 @@
 
 .shadow-Banner {
   border: 0;
-  box-shadow: -5px -5px 20px #fffffff3, 5px 5px 20px #3a3a3a7e;
+  box-shadow: -5px -5px 20px #F2F3F7, 5px 5px 15px #3a3a3a7e;
 }
+
 
 .card-Text {
   width: 60%;
@@ -49,11 +50,16 @@
   width: 80px;
   height: 80px;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 0;
+  box-shadow: inset -10px -10px 15px #ffffff,
+    inset 1px 1px 15px #7a7a7a85;
   border-radius: 50%;
 }
 
-.card-Ban {
+.card-Banner-box {
+  width: 30%;
+  background-color: #F2F3F5;
+  height: auto;
   border-radius: 40px;
 }
 

@@ -10,8 +10,8 @@
 }
 
 .container-FAQS {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 .layout-FAQS {
@@ -19,7 +19,7 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    height: 550px;
+    height: 500px;
     width: 100%;
 }
 
@@ -32,7 +32,6 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 20px;
-    /* box-shadow: 10px 10px 20px #cccccc; */
 }
 
 .card-no-FAQS {
@@ -45,28 +44,37 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 20px;
-    /* box-shadow: 10px 10px 20px #cccccc; */
 }
 
 .shadow-FAQS {
     border: 0;
-    box-shadow: -5px -5px 20px #f8f8f8f3, 5px 5px 20px #7a7a7a85;
+    box-shadow: -5px -5px 20px #ffffff, 5px 5px 15px #7a7a7a85;
+}
+
+.shadow-FAQS-btn {
+    border: 0;
+    box-shadow: -5px -5px 20px #ffffff, 5px 5px 15px #7a7a7a85;
+}
+
+.shadow-FAQS-btn-inset {
+    border: 0;
+    box-shadow: inset -10px -10px 15px #F2F3F5,
+        inset 1px 1px 15px #7a7a7a85;
 }
 
 .btn-FAQS {
     background-color: #F2F3F5;
-    border: 1px solid #F2F3F5;
+    border: 1px solid #04040408;
     height: 30px;
     width: 30px;
     padding: 0;
     border-radius: 50%;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
     color: #8490A4;
     font-weight: bold;
-    font-size: large;
-    box-shadow: 5px 5px 10px #cccccc;
+    font-size: 1rem;
 }
 
 .card-FAQS-off {

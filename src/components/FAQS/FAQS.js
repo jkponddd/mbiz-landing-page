@@ -16,7 +16,7 @@ function FAQS() {
                   <p className="m-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing
                   </p>
-                  <button className="btn-FAQS">+</button>
+                  <button className="btn-FAQS shadow-FAQS-btn">+</button>
                 </div>
               </div>
               <div className="card-no-FAQS shadow-FAQS mb-4">
@@ -24,7 +24,7 @@ function FAQS() {
                   <p className="m-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing
                   </p>
-                  <button className="btn-FAQS">-</button>
+                  <button className="btn-FAQS shadow-FAQS-btn-inset">-</button>
                 </div>
                 <div className="lorem-FAQS">
                   <p className="mb-3">
@@ -47,7 +47,7 @@ function FAQS() {
                   <p className="m-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing
                   </p>
-                  <button className="btn-FAQS">+</button>
+                  <button className="btn-FAQS shadow-FAQS-btn">+</button>
                 </div>
               </div>
               <div className="card-FAQS shadow-FAQS mb-4">
@@ -55,7 +55,7 @@ function FAQS() {
                   <p className="m-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing
                   </p>
-                  <button className="btn-FAQS">+</button>
+                  <button className="btn-FAQS shadow-FAQS-btn">+</button>
                 </div>
               </div>
               <div className="card-FAQS shadow-FAQS mb-4">
@@ -63,7 +63,7 @@ function FAQS() {
                   <p className="m-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing
                   </p>
-                  <button className="btn-FAQS">+</button>
+                  <button className="btn-FAQS shadow-FAQS-btn">+</button>
                 </div>
               </div>
               <div className="card-FAQS shadow-FAQS mb-4">
@@ -71,7 +71,7 @@ function FAQS() {
                   <p className="m-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing
                   </p>
-                  <button className="btn-FAQS">+</button>
+                  <button className="btn-FAQS shadow-FAQS-btn">+</button>
                 </div>
               </div>
               <div className="card-FAQS shadow-FAQS mb-4">
@@ -79,7 +79,7 @@ function FAQS() {
                   <p className="m-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing
                   </p>
-                  <button className="btn-FAQS">+</button>
+                  <button className="btn-FAQS shadow-FAQS-btn">+</button>
                 </div>
               </div>
               <div className="card-FAQS shadow-FAQS mb-4">
@@ -87,7 +87,7 @@ function FAQS() {
                   <p className="m-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing
                   </p>
-                  <button className="btn-FAQS">+</button>
+                  <button className="btn-FAQS shadow-FAQS-btn">+</button>
                 </div>
               </div>
             </div>

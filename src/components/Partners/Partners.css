@@ -19,7 +19,7 @@
 .title-Partners {
     display: flex;
     margin-top: 100px;
-    margin-bottom: 100px;
+
 }
 
 .title1-Partners {
@@ -61,7 +61,18 @@
 
 }
 
-.shadow-Partners {
+.btn-Partners {
     border: 0;
-    box-shadow: -5px -5px 10px #f8f8f8f3, 5px 5px 20px #7a7a7a85;
+    box-shadow: -5px -5px 10px #f8f8f8f3, 5px 5px 15px #7a7a7a85;
+}
+
+.btn-Partners:hover {
+    background-color: #f3f3f3b0;
+}
+
+.btn-Partners:focus {
+    border: 0;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+        inset 5px 5px 15px #7a7a7a85;
+    font-weight: bold;
 }

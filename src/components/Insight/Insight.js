@@ -23,29 +23,29 @@ function Insight() {
               <h1 className="fw-bold m-0">{data.title1}</h1>
             </div>
             <div className="card-Insight-out">
-              <div className="card-Insight shadow-Insight m-3">
-                <div>
+              <div className="card-Insight m-3">
+                <button className="btn-Insight">
                   <div>
                     <img className="img-Insight" src={ads} alt="..." />
                   </div>
-                  <p className="card-text fw-bold">Sponsored Ads</p>
-                </div>
+                  <p className="card-text">Sponsored Ads</p>
+                </button>
               </div>
-              <div className="card-Insight shadow-Insight m-3">
-                <div>
+              <div className="card-Insight  m-3">
+                <button className="btn-Insight">
                   <div>
                     <img className="img-Insight" src={advertotial} alt="..." />
                   </div>
                   <p className="card-text">Sponsored Advertotial</p>
-                </div>
+                </button>
               </div>
-              <div className="card-Insight shadow-Insight m-3">
-                <div>
+              <div className="card-Insight m-3">
+                <button className="btn-Insight">
                   <div>
                     <img className="img-Insight" src={shopping} alt="..." />
                   </div>
                   <p className="card-text">Shopping Insight</p>
-                </div>
+                </button>
               </div>
             </div>
           </div>

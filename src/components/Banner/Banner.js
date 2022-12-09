@@ -61,7 +61,7 @@ function Banner() {
             {dataCard.map((item) => (
               <div
                 key={item.title1}
-                className="card card-Ban m-4 shadow-Banner"
+                className="card card-Banner-box m-4 shadow-Banner"
                 style={{ height: "250px", width: "230px" }}
               >
                 <div className="card-body text-center">

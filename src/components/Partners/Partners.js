@@ -26,6 +26,9 @@ import image3 from "../../assets/images/image3.png";
 import image4 from "../../assets/images/image4.png";
 import image5 from "../../assets/images/image5.png";
 
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 function Partners() {
   let data = {
     title1: "M Business Partners",
@@ -97,6 +100,26 @@ function Partners() {
     },
   ];
 
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 6,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+
   return (
     <>
       <div
@@ -106,26 +129,26 @@ function Partners() {
       >
         <div className="container">
           <div className="title-Partners flex-column align-items-center ">
-            <div className="d-flex  justify-content-between mb-5">
+            <div className="d-flex  justify-content-between">
               <div>
                 <h1 className="title1-Partners fw-bold">{data.title1}</h1>
               </div>
-              <div className="d-flex flex-wrap ">
-                <div className="card-Partners m-3 shadow-Partners">
-                  <p className="card-text  fw-bold">{Partners.Partner1}</p>
-                </div>
-                <div className="card-Partners m-3 shadow-Partners">
+              <div className="d-flex flex-wrap">
+                <button className="card-Partners m-3 btn-Partners">
+                  <p className="card-text">{Partners.Partner1}</p>
+                </button>
+                <button className="card-Partners m-3 btn-Partners">
                   <p className="card-text ">{Partners.Partner2}</p>
-                </div>
-                <div className="card-Partners m-3 shadow-Partners">
+                </button>
+                <button className="card-Partners m-3 btn-Partners">
                   <p className="card-text">{Partners.Partner3}</p>
-                </div>
-                <div className="card-Partners m-3 shadow-Partners">
+                </button>
+                <button className="card-Partners m-3 btn-Partners">
                   <p className="card-text">{Partners.Partner4}</p>
-                </div>
-                <div className="card-Partners m-3 shadow-Partners">
+                </button>
+                <button className="card-Partners m-3 btn-Partners">
                   <p className="card-text">{Partners.Partner5}</p>
-                </div>
+                </button>
               </div>
             </div>
             <div
@@ -138,7 +161,7 @@ function Partners() {
                 </div>
               ))}
             </div>
-            <div
+            {/* <div
               id="carouselExampleControls"
               className="carousel slide"
               data-bs-ride="carousel"
@@ -185,8 +208,27 @@ function Partners() {
                 ></span>
                 <span className="visually-hidden">Next</span>
               </button>
-            </div>
+            </div> */}
           </div>
+        </div>
+        <div style={{ marginBottom: "100px" }}>
+          <Carousel responsive={responsive}>
+            <div className="d-flex justify-content-center">
+              <img src={image1} alt="..." />
+            </div>
+            <div className="d-flex justify-content-center">
+              <img src={image2} alt="..." />
+            </div>
+            <div className="d-flex justify-content-center">
+              <img src={image3} alt="..." />
+            </div>
+            <div className="d-flex justify-content-center">
+              <img src={image4} alt="..." />
+            </div>
+            <div className="d-flex justify-content-center">
+              <img src={image5} alt="..." />
+            </div>
+          </Carousel>
         </div>
       </div>
     </>

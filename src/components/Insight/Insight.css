@@ -26,6 +26,7 @@
 .con-Insight {
     margin-top: 150px;
     margin-bottom: 100px;
+    background-color: #F2F3F5;
 }
 
 .card-Insight-Text {
@@ -53,7 +54,7 @@
     border-radius: 40px;
     height: 120px;
     width: 220px;
-    background-color: white;
+    background-color: #F2F3F5;
 }
 
 .card-Insight-bottom {
@@ -69,7 +70,7 @@
 
 .shadow-Insight {
     border: 0;
-    box-shadow: -5px -5px 10px #f8f8f8f3, 5px 5px 20px #7a7a7a85;
+    box-shadow: -5px -5px 10px #fffffff3, 5px 5px 15px #7a7a7a85;
 }
 
 .insightimage {
@@ -79,6 +80,30 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
+}
+
+.btn-Insight {
+    border: 0;
+    border-radius: 40px;
+    box-shadow: -5px -5px 10px #fffffff3, 5px 5px 15px #7a7a7a85;
+    background-color: #F2F3F5;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-Insight:hover {
+    background-color: #eeeeee;
+}
+
+.btn-Insight:focus {
+    border: 0;
+    border-radius: 40px;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+        inset 5px 5px 15px #7a7a7a85;
+    background-color: #F2F3F5;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
 }
 
 @media screen and (max-width:1400px) {
@@ -91,7 +116,7 @@
         border-radius: 40px;
         height: 120px;
         width: 280px;
-        background-color: white;
+        background-color: #F2F3F5;
 
     }
 
@@ -129,5 +154,7 @@
         margin-top: 0px;
         margin-bottom: 100px;
     }
+
+
 
 }

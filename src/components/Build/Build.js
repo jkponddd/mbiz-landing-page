@@ -22,29 +22,29 @@ function Build() {
               <h1 className="fw-bold m-0">{data.title1}</h1>
             </div>
             <div className="card-Build-out">
-              <div className="card-Build shadow-Build m-3">
-                <div>
+              <div className="card-Build m-3">
+                <button className="btn-Build">
                   <div>
                     <img className="img-Build" src={EarnBurn} alt="..." />
                   </div>
-                  <p className="card-text fw-bold">Sponsored Ads</p>
-                </div>
+                  <p className="card-text">M Point Earn & Burn</p>
+                </button>
               </div>
-              <div className="card-Build shadow-Build m-3">
-                <div>
+              <div className="card-Build  m-3">
+                <button className="btn-Build">
                   <div>
                     <img className="img-Build" src={MStamp} alt="..." />
                   </div>
-                  <p className="card-text">Sponsored Advertotial</p>
-                </div>
+                  <p className="card-text">M Stamp</p>
+                </button>
               </div>
-              <div className="card-Build shadow-Build m-3">
-                <div>
+              <div className="card-Build m-3">
+                <button className="btn-Build">
                   <div>
                     <img className="img-Build" src={MCoupon} alt="..." />
                   </div>
-                  <p className="card-text">Shopping Build</p>
-                </div>
+                  <p className="card-text">M Coupon</p>
+                </button>
               </div>
             </div>
           </div>

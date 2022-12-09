@@ -4,6 +4,8 @@
     display: flex;
     text-align: start;
     border-radius: 40px;
+    background-color: #F2F3F5;
+    ;
 }
 
 .title-con {
@@ -23,7 +25,7 @@
 
 .shadow-con {
     border: 0;
-    box-shadow: -5px -5px 20px #fffffff3, 5px 5px 20px #5e5e5e7e;
+    box-shadow: -5px -5px 20px #fffffff3, 5px 5px 15px #5e5e5e7e;
 }
 
 .conimage {
