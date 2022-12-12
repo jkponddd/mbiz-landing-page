@@ -20,7 +20,7 @@ function Insight() {
         <div className="container ">
           <div className="container-Insight">
             <div className="title-Insight m-5">
-              <h1 className="fw-bold m-0">{data.title1}</h1>
+              <h1 className="m-0">{data.title1}</h1>
             </div>
             <div className="card-Insight-out">
               <div className="card-Insight m-3">
@@ -50,8 +50,8 @@ function Insight() {
             </div>
           </div>
           <div className="card-Insight-bottom">
-            <div className="card con-Insight card-Insight-btm shadow-Insight">
-              <h2 className="card-Insight-Text fw-bold">{data.titleB1}</h2>
+            <div className="card card-Insight-btm shadow-Insight">
+              <h2 className="card-Insight-Text">{data.titleB1}</h2>
               <p className="card-Insight-Text">{data.titleB2}</p>
               <p className="card-Insight-Text">
                 {data.titleB3}

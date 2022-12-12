@@ -49,8 +49,8 @@ function Build() {
             </div>
           </div>
           <div className="card-Build-bottom">
-            <div className="card con-Build card-Build-btm shadow-Build">
-              <h2 className="card-Build-Text fw-bold">{data.titleB1}</h2>
+            <div className="card card-Build-btm shadow-Build">
+              <h2 className="card-Build-Text">{data.titleB1}</h2>
               <p className="card-Build-Text">{data.titleB2}</p>
               <p className="card-Build-Text">
                 {data.titleB3}

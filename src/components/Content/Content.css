@@ -1,16 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .card-con {
-    width: 45%;
-    padding: 20px;
+    width: 50%;
+    padding: 30px;
     display: flex;
-    text-align: start;
+    justify-content: center;
+    align-items: flex-start;
     border-radius: 40px;
     background-color: #F2F3F5;
     ;
 }
 
 .title-con {
-    margin-top: 600px;
-    margin-bottom: 100px;
+    padding-top: 750px;
+    padding-bottom: 120px;
+}
+
+.card-con h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .card-context {
@@ -29,12 +40,29 @@
 }
 
 .conimage {
-    background-image: url(../../assets/images/bgcontent.png);
+    background-image: url(../../assets/images/bgcontent3.png);
     background-repeat: no-repeat;
     height: auto;
     background-size: cover;
-    background-position: center;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border: 0;
+    box-shadow: inset -10px -10px 15px #ffffff,
+        inset 1px 1px 15px #7a7a7a85;
+    border-radius: 50%;
+}
+
+.card-body h6 {
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 @media screen and (max-width:1200px) {
