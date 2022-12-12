@@ -40,7 +40,7 @@ function Content() {
     <>
       <div className="conimage" id="Service">
         <div className="container">
-          <div className="d-flex align-content-center justify-content-center flex-wrap">
+          <div className="d-flex align-content-center justify-content-center flex-wrap pt-5">
             {dataCard.map((item) => (
               <div
                 key={item.title1}
