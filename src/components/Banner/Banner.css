@@ -24,8 +24,17 @@
 }
 
 .mousedown p {
+  height: 70px;
+  width: 20px;
   font-size: 1rem;
+  margin-left: 6px;
 }
+
+.mousedown a {
+  height: 70px;
+  width: 70px;
+}
+
 
 
 .container-Banner {

@@ -153,7 +153,7 @@ function Banner() {
                 href="#"
               >
                 <BsMouse className="icon-mousedown mb-2"></BsMouse>
-                <p className="writing-mode ms-1">More Info</p>
+                <p className="writing-mode">More Info</p>
               </Link>
             </div>
             <div className="card-Banner shadow-Banner ">
