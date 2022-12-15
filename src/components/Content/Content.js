@@ -44,23 +44,23 @@ function Content() {
             {dataCard.map((item) => (
               <div
                 key={item.title1}
-                className="card card-Banner-box m-4 shadow-Banner"
-                style={{ height: "280px", width: "250px" }}
+                className="card card-con-box m-4 shadow-con"
               >
                 <div className="card-body">
                   <div className="card-img mb-3 mt-2">
                     <img src={item.image} alt="..." />
                   </div>
                   <h6 className="text-center">{item.title1}</h6>
-                  <p className="px-3">{item.title2}</p>
+                  <p className="m-0 pb-2">{item.title2}</p>
                 </div>
               </div>
             ))}
           </div>
           <div className="title-con">
-            <div className="card card-con shadow-con">
-              <h2 className="card-context">{data.titleB1}</h2>
-              <p className="card-context">{data.titleB2}</p>
+            <div id="mousedown" />
+            <div className="card card-con shadow-con mt-5">
+              <h2>{data.titleB1}</h2>
+              <p>{data.titleB2}</p>
             </div>
           </div>
         </div>

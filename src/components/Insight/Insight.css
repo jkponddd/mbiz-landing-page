@@ -74,11 +74,20 @@
     font-weight: bold;
 }
 
+.container-Insight p {
+    font-size: 1rem;
+}
+
+.card-Insight-bottom p {
+    font-size: 1rem;
+}
+
 .insightimage {
     background-image: url(../../assets/images/bginsight2.png);
     background-repeat: no-repeat;
     height: auto;
     background-size: cover;
+    background-position: center;
     /* overflow: hidden; */
 }
 
@@ -106,7 +115,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1320px) {
     .card-Insight {
         display: flex;
         justify-content: center;
@@ -155,6 +164,73 @@
         margin-bottom: 100px;
     }
 
+    .btn-Insight {
+        border: 0;
+        border-radius: 40px;
+        box-shadow: -5px -5px 10px #fffffff3, 5px 5px 15px #7a7a7a85;
+        background-color: #F2F3F5;
+        height: 100%;
+        width: 80%;
+    }
 
+
+}
+
+
+@media screen and (max-width:960px) {
+    .title-Insight {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-Insight h1 {
+        font-size: 2rem;
+    }
+
+    .container-Insight p {
+        font-size: 1rem;
+    }
+
+    .card-Insight-bottom h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .btn-Insight {
+        border: 0;
+        border-radius: 40px;
+        box-shadow: -5px -5px 10px #fffffff3, 5px 5px 15px #7a7a7a85;
+        background-color: #F2F3F5;
+        height: 90%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .title-Insight {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-Insight h1 {
+        font-size: 1.5rem;
+    }
+
+    .container-Insight p {
+        font-size: 0.9rem;
+    }
+
+    .btn-Insight {
+        border: 0;
+        border-radius: 40px;
+        box-shadow: -5px -5px 10px #fffffff3, 5px 5px 15px #7a7a7a85;
+        background-color: #F2F3F5;
+        height: 80%;
+        width: 70%;
+    }
+
+    .card-Insight-btm h2 {
+        font-size: 1.5rem;
+    }
 
 }

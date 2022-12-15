@@ -106,16 +106,20 @@ function Partners() {
       breakpoint: { max: 4000, min: 3000 },
       items: 6,
     },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+    desktop1: {
+      breakpoint: { max: 3000, min: 1320 },
       items: 4,
     },
+    desktop2: {
+      breakpoint: { max: 1320, min: 960 },
+      items: 3,
+    },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 960, min: 720 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 720, min: 0 },
       items: 1,
     },
   };
@@ -128,25 +132,25 @@ function Partners() {
         style={{ height: "auto", width: "100%" }}
       >
         <div className="container">
-          <div className="title-Partners flex-column align-items-center ">
-            <div className="d-flex  justify-content-between">
-              <div>
+          <div className="Partners flex-column align-items-center ">
+            <div className="Partners-container">
+              <div className="title-Partners">
                 <h1 className="title1-Partners fw-bold">{data.title1}</h1>
               </div>
-              <div className="d-flex flex-wrap">
-                <button className="card-Partners m-3 btn-Partners">
+              <div className="btn-container-Partners">
+                <button className="card-Partners mx-2 mt-3 btn-Partners">
                   <p className="card-text">{Partners.Partner1}</p>
                 </button>
-                <button className="card-Partners m-3 btn-Partners">
+                <button className="card-Partners mx-2 mt-3 btn-Partners">
                   <p className="card-text ">{Partners.Partner2}</p>
                 </button>
-                <button className="card-Partners m-3 btn-Partners">
+                <button className="card-Partners mx-2 mt-3 btn-Partners">
                   <p className="card-text">{Partners.Partner3}</p>
                 </button>
-                <button className="card-Partners m-3 btn-Partners">
+                <button className="card-Partners mx-2 mt-3 btn-Partners">
                   <p className="card-text">{Partners.Partner4}</p>
                 </button>
-                <button className="card-Partners m-3 btn-Partners">
+                <button className="card-Partners mx-2 mt-3 btn-Partners">
                   <p className="card-text">{Partners.Partner5}</p>
                 </button>
               </div>
