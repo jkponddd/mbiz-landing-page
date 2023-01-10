@@ -117,7 +117,7 @@ function Banner() {
                       type="button"
                       class="btn btn-outline-light  rounded-pill btn-nav me-3"
                     >
-                      <a>Register</a>
+                      Register
                     </button>
 
                     <button
