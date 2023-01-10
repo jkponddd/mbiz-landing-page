@@ -124,12 +124,7 @@ function Banner() {
                       type="button"
                       class="btn btn-danger rounded-pill btn-nav"
                     >
-                      <a
-                        class="text-decoration-none text-white"
-                        href="https://uat.mcardbiz.com/login"
-                      >
-                        Login
-                      </a>
+                      <a>Login</a>
                     </button>
                   </li>
                 </ul>
