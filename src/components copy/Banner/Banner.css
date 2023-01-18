@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mousedown {
+  color: white;
+}
+
+.writing-mode {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.icon-mousedown {
+  font-size: 2.5rem;
+}
+
+.mousedown p {
+  height: 80px;
+  width: 20px;
+  font-size: 1rem;
+  margin-left: 6px;
+}
+
+.mousedown a {
+  height: 70px;
+  width: 70px;
+}
+
+.container-Banner {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.Banner h1 {
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+
+.Banner h3 {
+  font-size: 2.2rem;
+}
+
+.card-Banner h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.card-Banner p {
+  font-size: 1rem;
+}
+
+.btn-get {
+  height: 3.6rem;
+  width: 16rem;
+  font-size: 1.2rem;
+}
+
+.Banner .btn-danger {
+  background-color: #E20000;
+  border: 1px solid #E20000;
+}
+
+.Banner .btn-danger:hover {
+  background-color: #b60202;
+  border: 1px solid #b60202;
+}
+
+.btn-nav {
+  height: 40px;
+  width: 140px;
+  font-size: 18px;
+}
+
+.navbar-nav .btn-danger {
+  background-color: #E20000;
+  border: 1px solid #E20000;
+}
+
+.navbar-nav .btn-danger:hover {
+  background-color: #b60202;
+  border: 1px solid #b60202;
+}
+
+/* .nav-item a {
+  font-size: 14px;
+} */
+
+.card-Banner {
+  width: 80%;
+  background-color: #F2F3F5;
+  padding: 40px 30px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+}
+
+.shadow-Banner {
+  border: 0;
+  box-shadow: -5px -5px 20px #F2F3F7, 5px 5px 15px #3a3a3a7e;
+}
+
+
+.card-Text {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+}
+
+.card-Banner-box {
+  width: 30%;
+  background-color: #F2F3F5;
+  height: auto;
+  border-radius: 40px;
+}
+
+.bannerimage {
+  background-image: url(../../assets/images/banner.svg);
+  background-repeat: no-repeat;
+  height: calc(100vh - 80px);
+  background-size: cover;
+  background-position: center;
+  /* overflow: hidden; */
+}
+
+@media screen and (max-width:960px) {
+  .Banner h1 {
+    font-size: 3.4rem;
+    font-weight: bold;
+  }
+
+  .Banner h3 {
+    font-size: 2.6rem;
+  }
+
+  .card-Banner h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+
+  .btn-get {
+    height: 3rem;
+    width: 11rem;
+    font-size: 1.1rem;
+  }
+
+  .btn-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    height: 100%;
+    width: 110px;
+    font-size: 14px;
+  }
+
+  .card-Text {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    /* font-size: 1.1rem; */
+    /* background-color: aquamarine; */
+  }
+
+  /* .Banner {
+    padding-top: 100px;
+    padding-bottom: 200px;
+  } */
+
+  .container-Banner {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .card-Banner {
+    width: 80%;
+    background-color: #F2F3F5;
+    padding: 20px 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+  }
+
+  .icon-mousedown {
+    font-size: 2.2rem;
+  }
+
+  .mousedown p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width:540px) {
+  .Banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .Banner h3 {
+    font-size: 2.4rem;
+  }
+
+  .card-Banner h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+
+  .btn-Login {
+    height: 1.8rem;
+    width: 5rem;
+    font-size: 0.7rem;
+  }
+
+  .btn-get {
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1rem;
+  }
+
+  .card-Text {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 0.9rem;
+  }
+
+  .container-Banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .card-Banner {
+    width: 80%;
+    background-color: #F2F3F5;
+    padding: 20px 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+  }
+
+
+}

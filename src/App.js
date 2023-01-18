@@ -1,11 +1,11 @@
 import "./App.css";
-import Banner from "./components/Banner/Banner";
-import Content from "./components/Content/Content";
-import Insight from "./components/Insight/Insight";
-import Build from "./components/Build/Build";
-import Partners from "./components/Partners/Partners";
-import FAQS from "./components/FAQS/FAQS";
-import Footer from "./components/Footer/Footer";
+import Banner from "./components/Banner";
+import Content from "./components/Content";
+import Insight from "./components/Insight";
+import Build from "./components/Build";
+import Partners from "./components/Partners";
+import FAQS from "./components/FAQS";
+import Footer from "./components/Footer";
 
 function App() {
   return (

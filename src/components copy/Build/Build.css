@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card-Build-btm {
+    width: 45%;
+    padding: 40px 50px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 40px;
+    margin-top: 100px;
+    margin-bottom: 450px;
+    background-color: #F2F3F5;
+}
+
+.container-Build {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title-Build {
+    height: auto;
+    width: 400px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.card-Build-Text {
+    width: 100%;
+    height: auto;
+
+}
+
+.img-Build {
+    width: 40px;
+    height: 40px;
+
+}
+
+.card-Build {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 40px;
+    height: 120px;
+    width: 220px;
+
+}
+
+.card-Build-bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-Build-out {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.shadow-Build {
+    border: 0;
+    box-shadow: -5px -5px 10px #fffffff3, 5px 5px 15px #7a7a7a85;
+}
+
+.container-Build h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card-Build-bottom h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.buildimage {
+    background-image: url(../../assets/images/bgbuile1.png);
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    /* overflow: hidden; */
+}
+
+.btn-Build {
+    border: 0;
+    border-radius: 40px;
+    box-shadow: -5px -5px 10px #fffffff3, 5px 5px 15px #7a7a7a85;
+    background-color: #F2F3F5;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-Build:hover {
+    background-color: #eeeeee;
+}
+
+.btn-Build:focus {
+    border: 0;
+    border-radius: 40px;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+        inset 5px 5px 15px #7a7a7a85;
+    background-color: #F2F3F5;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1320px) {
+    .card-Build {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        border-radius: 40px;
+        height: 120px;
+        width: 280px;
+
+    }
+
+    .card-Build-btm {
+        width: 80%;
+        padding: 40px 50px;
+        display: flex;
+        text-align: start;
+        border-radius: 40px;
+
+    }
+
+    .container-Build {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-Build-out {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-Build {
+        display: flex;
+        text-align: center;
+    }
+
+    .card-Build-bottom {
+        display: flex;
+        justify-content: center;
+    }
+
+    .con-Build {
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+
+    .btn-Build {
+        border: 0;
+        border-radius: 40px;
+        box-shadow: -5px -5px 10px #fffffff3, 5px 5px 15px #7a7a7a85;
+        background-color: #F2F3F5;
+        height: 100%;
+        width: 80%;
+    }
+
+
+}
+
+@media screen and (max-width:960px) {
+    .title-Build {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-Build h1 {
+        font-size: 2rem;
+    }
+
+    .container-Build p {
+        font-size: 1rem;
+    }
+
+    .btn-Build {
+        border: 0;
+        border-radius: 40px;
+        box-shadow: -5px -5px 10px #fffffff3, 5px 5px 15px #7a7a7a85;
+        background-color: #F2F3F5;
+        height: 90%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .title-Build {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-Build h1 {
+        font-size: 1.5rem;
+    }
+
+    .container-Build p {
+        font-size: 0.9rem;
+    }
+
+    .btn-Build {
+        border: 0;
+        border-radius: 40px;
+        box-shadow: -5px -5px 10px #fffffff3, 5px 5px 15px #7a7a7a85;
+        background-color: #F2F3F5;
+        height: 80%;
+        width: 70%;
+    }
+
+    .card-Build-btm h2 {
+        font-size: 1.5rem;
+    }
+
+}
