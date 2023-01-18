@@ -2,10 +2,6 @@ import React from "react";
 
 import device_1 from "../../assets/images/device/device_1.svg";
 import device_2 from "../../assets/images/device/device_2.svg";
-import device_0 from "../../assets/images/device/device_0.svg";
-
-import star_1 from "../../assets/images/star/star_1.svg";
-import star_2 from "../../assets/images/star/star_2.svg";
 
 import content_1 from "../../assets/images/icon/content_1.svg";
 import content_2 from "../../assets/images/icon/content_2.svg";
