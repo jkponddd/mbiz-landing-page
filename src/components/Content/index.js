@@ -82,7 +82,7 @@ function Content() {
                   type="button"
                   className="btn-danger rounded-pill btn-get"
                 >
-                  <a href="#" style={{ textDecoration: "none", color: "#fff" }}>
+                  <a href="/" style={{ textDecoration: "none", color: "#fff" }}>
                     Download Mbiz
                   </a>
                 </button>

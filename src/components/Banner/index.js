@@ -49,7 +49,7 @@ function Banner() {
                       offset={50}
                       duration={500}
                       onSetActive={handleSetActive}
-                      href="#"
+                      href="/"
                     >
                       Home
                     </Link>
@@ -63,7 +63,7 @@ function Banner() {
                       offset={50}
                       duration={500}
                       onSetActive={handleSetActive}
-                      href="#"
+                      href="/"
                     >
                       Service
                     </Link>
@@ -77,7 +77,7 @@ function Banner() {
                       offset={50}
                       duration={500}
                       onSetActive={handleSetActive}
-                      href="#"
+                      href="/"
                     >
                       Benefit
                     </Link>
@@ -91,7 +91,7 @@ function Banner() {
                       offset={50}
                       duration={500}
                       onSetActive={handleSetActive}
-                      href="#"
+                      href="/"
                     >
                       Partner
                     </Link>
@@ -105,7 +105,7 @@ function Banner() {
                       offset={50}
                       duration={500}
                       onSetActive={handleSetActive}
-                      href="#"
+                      href="/"
                     >
                       FAQs
                     </Link>
@@ -143,7 +143,7 @@ function Banner() {
             <div className="text-light Banner">
               {" "}
               <button type="button" className="btn-danger rounded-pill btn-get">
-                <a href="#" style={{ textDecoration: "none", color: "#fff" }}>
+                <a href="/" style={{ textDecoration: "none", color: "#fff" }}>
                   Get Started
                 </a>
               </button>
@@ -157,7 +157,7 @@ function Banner() {
                 offset={50}
                 duration={500}
                 onSetActive={handleSetActive}
-                href="#"
+                href="/"
               >
                 <BsMouse className="icon-mousedown mb-2"></BsMouse>
                 <p className="writing-mode">More Info</p>

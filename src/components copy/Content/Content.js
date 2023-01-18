@@ -79,7 +79,7 @@ function Content() {
                     className="btn-danger rounded-pill btn-get"
                   >
                     <a
-                      href="#"
+                      href="/"
                       style={{ textDecoration: "none", color: "#fff" }}
                     >
                       Download Mbiz
