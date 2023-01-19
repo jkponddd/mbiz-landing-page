@@ -199,7 +199,7 @@ function Banner() {
                 <a
                   href="https://uat.mcardbiz.com/login"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                   style={{ textDecoration: "none", color: "#fff" }}
                 >
                   Get Started
