@@ -363,8 +363,8 @@ function Partners() {
             responsive={responsive}
             ssr={true} // means to render carousel on server-side.
             infinite={true}
-            // autoPlay={true}
-            autoPlaySpeed={2000}
+            autoPlay={true}
+            autoPlaySpeed={1500}
             keyBoardControl={true}
             customTransition="all .5"
             transitionDuration={500}
@@ -379,20 +379,55 @@ function Partners() {
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
           >
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center box-carousel">
               <img className="box-carousel-image" src={image1} alt="..." />
+              <div class="box-carousel-overlay">
+                <div class="box-carousel-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam
+                </div>
+              </div>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center box-carousel">
               <img className="box-carousel-image" src={image2} alt="..." />
+              <div class="box-carousel-overlay">
+                <div class="box-carousel-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam
+                </div>
+              </div>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center box-carousel">
               <img className="box-carousel-image" src={image3} alt="..." />
+              <div class="box-carousel-overlay">
+                <div class="box-carousel-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam
+                </div>
+              </div>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center box-carousel">
               <img className="box-carousel-image" src={image4} alt="..." />
+              <div class="box-carousel-overlay">
+                <div class="box-carousel-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam
+                </div>
+              </div>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center box-carousel">
               <img className="box-carousel-image" src={image5} alt="..." />
+              <div class="box-carousel-overlay">
+                <div class="box-carousel-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam
+                </div>
+              </div>
             </div>
           </Carousel>
         </div>
