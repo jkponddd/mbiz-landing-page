@@ -84,7 +84,11 @@ function Build() {
               <>
                 <div className="row align-items-center">
                   <div className="col-12 col-md-6">
-                    <img className="box-build-image" src={bse_1} alt=""></img>
+                    <img
+                      className="box-build-image"
+                      src={bse_1}
+                      alt="..."
+                    ></img>
                   </div>
                   <div className="col-12 col-md-6">
                     <div className="card-Insight-bottom">
@@ -100,7 +104,11 @@ function Build() {
               <>
                 <div className="row align-items-center">
                   <div className="col-12 col-md-6">
-                    <img className="box-build-image" src={bse_2} alt=""></img>
+                    <img
+                      className="box-build-image"
+                      src={bse_2}
+                      alt="..."
+                    ></img>
                   </div>
                   <div className="col-12 col-md-6">
                     <div className="card-Insight-bottom">
@@ -116,7 +124,11 @@ function Build() {
               <>
                 <div className="row align-items-center">
                   <div className="col-12 col-md-6">
-                    <img className="box-build-image" src={bse_3} alt=""></img>
+                    <img
+                      className="box-build-image"
+                      src={bse_3}
+                      alt="..."
+                    ></img>
                   </div>
                   <div className="col-12 col-md-6">
                     <div className="card-Insight-bottom">
@@ -137,6 +149,7 @@ function Build() {
               <a
                 href="https://uat.mcardbiz.com/login"
                 target="_blank"
+                rel="noopener"
                 style={{ textDecoration: "none", color: "#fff" }}
               >
                 Join with Mbiz

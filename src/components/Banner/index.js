@@ -20,7 +20,6 @@ function Banner() {
   };
 
   const toggleNavbar = () => {
-    var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
 
@@ -37,7 +36,6 @@ function Banner() {
         document.getElementById("navbar").style.boxShadow =
           "-5px -5px 20px #F2F3F7, 5px 5px 15px #3a3a3a7e";
       }
-      prevScrollpos = currentScrollPos;
     };
   };
 
@@ -201,6 +199,7 @@ function Banner() {
                 <a
                   href="https://uat.mcardbiz.com/login"
                   target="_blank"
+                  rel="noopener"
                   style={{ textDecoration: "none", color: "#fff" }}
                 >
                   Get Started

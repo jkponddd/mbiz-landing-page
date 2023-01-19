@@ -222,7 +222,10 @@ function Register() {
                         }}
                         style={{ borderRadius: "0px 10px 10px 0px" }}
                       >
-                        <img src={showPassword ? iconHidden : iconShow} />
+                        <img
+                          src={showPassword ? iconHidden : iconShow}
+                          alt="..."
+                        />
                       </span>
                       <div className="invalid-tooltip"></div>
                     </div>
@@ -244,7 +247,10 @@ function Register() {
                         }}
                         style={{ borderRadius: "0px 10px 10px 0px" }}
                       >
-                        <img src={showPassword ? iconHidden : iconShow} />
+                        <img
+                          src={showPassword ? iconHidden : iconShow}
+                          alt="..."
+                        />
                       </span>
                       <div className="invalid-tooltip"></div>
                     </div>

@@ -99,7 +99,7 @@ function Insight() {
                       className="box-build-image"
                       src={ia_1}
                       style={{ width: "160%" }}
-                      alt=""
+                      alt="..."
                     ></img>
                   </div>
                 </div>
@@ -120,7 +120,7 @@ function Insight() {
                       className="box-build-image"
                       src={ia_2}
                       style={{ width: "160%" }}
-                      alt=""
+                      alt="..."
                     ></img>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ function Insight() {
                       className="box-build-image"
                       src={ia_3}
                       style={{ width: "160%" }}
-                      alt=""
+                      alt="..."
                     ></img>
                   </div>
                 </div>

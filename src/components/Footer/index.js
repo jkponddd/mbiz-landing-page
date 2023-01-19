@@ -32,6 +32,7 @@ function Footer() {
                   <a
                     href="https://www.facebook.com/mcardforall/"
                     target="_blank"
+                    rel="noopener"
                   >
                     <i className="icon-footer">
                       <FaFacebookF />
@@ -40,6 +41,7 @@ function Footer() {
                   <a
                     href="https://www.instagram.com/mcard.for.all/"
                     target="_blank"
+                    rel="noopener"
                   >
                     <i className="icon-footer">
                       <FaInstagram />
@@ -48,6 +50,7 @@ function Footer() {
                   <a
                     href="https://www.youtube.com/@TheMallGroup/"
                     target="_blank"
+                    rel="noopener"
                   >
                     <i className="icon-footer">
                       <FaYoutube />
@@ -56,6 +59,7 @@ function Footer() {
                   <a
                     href="https://www.tiktok.com/@themallgroup/"
                     target="_blank"
+                    rel="noopener"
                   >
                     <i className="icon-footer">
                       <FaTiktok />
@@ -106,6 +110,7 @@ function Footer() {
                     <a
                       href="https://www.themall.co.th/th/contact-us/"
                       target="_blank"
+                      rel="noopener"
                     >
                       Address Themall Bangkok
                     </a>
@@ -125,6 +130,7 @@ function Footer() {
                         <a
                           href="https://www.themall.co.th/th/privacy-partner"
                           target="_blank"
+                          rel="noopener"
                         >
                           Term and Conditions
                         </a>
@@ -138,6 +144,7 @@ function Footer() {
                         <a
                           href="https://www.themall.co.th/th/privacy-policies/"
                           target="_blank"
+                          rel="noopener"
                         >
                           Privacy Policy
                         </a>

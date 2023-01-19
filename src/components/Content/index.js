@@ -6,8 +6,6 @@ import device_2 from "../../assets/images/device/device_2.svg";
 import star_1 from "../../assets/images/star/star_1.svg";
 import star_2 from "../../assets/images/star/star_2.svg";
 
-import line_1 from "../../assets/images/line/line_1.svg";
-
 import content_1 from "../../assets/images/icon/content_1.svg";
 import content_2 from "../../assets/images/icon/content_2.svg";
 import content_3 from "../../assets/images/icon/content_3.svg";
