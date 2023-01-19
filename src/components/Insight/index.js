@@ -8,8 +8,6 @@ import ia_1 from "../../assets/images/insight-adverstisement/insight-adverstisem
 import ia_2 from "../../assets/images/insight-adverstisement/insight-adverstisement_2.svg";
 import ia_3 from "../../assets/images/insight-adverstisement/insight-adverstisement_3.svg";
 
-import line_2 from "../../assets/images/line/line_2.svg";
-
 function Insight() {
   let data = {
     title: "INSIGHT & ADVERSTISEMENT",

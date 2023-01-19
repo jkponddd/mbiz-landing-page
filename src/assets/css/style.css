@@ -16,21 +16,18 @@ body {
 }
 
 @media (max-width: 1400px) {
-
     .box-content {
         padding-top: 20%;
     }
 }
 
 @media (max-width: 1024px) {
-
     .box-content {
         padding-top: 30%;
     }
 }
 
 @media (max-width: 540px) {
-
     .box-content {
         padding-top: 35%;
     }
@@ -51,7 +48,6 @@ body {
     float: left;
     display: block;
 }
-
 
 .bannerimage-register {
     background-image: url(../../assets/images/banner_register.svg);
@@ -107,8 +103,6 @@ body {
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgb(225 83 97 / 50%);
 }
-
-
 
 /* -------------------------- End Templete --------------------------  */
 
@@ -439,14 +433,6 @@ body {
     font-weight: bold;
 }
 
-.buildimage {
-    background-image: url(../../assets/images/bgbuile1.png);
-    background-repeat: no-repeat;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-}
-
 .btn-Build {
     border: 0;
     border-radius: 40px;
@@ -525,8 +511,6 @@ body {
         height: 100%;
         width: 80%;
     }
-
-
 }
 
 @media screen and (max-width:960px) {
@@ -586,12 +570,6 @@ body {
     max-width: 800px;
     max-height: 600px;
 }
-
-/* @media (max-width: 768px) {
-    .box-build-image {
-        height: 600px;
-    }
-} */
 
 /* -------------------------- End Build --------------------------  */
 
@@ -956,14 +934,6 @@ body {
     box-shadow: -5px -5px 20px #F2F3F7, 5px 5px 15px #3a3a3a7e;
 }
 
-.conimage {
-    background-image: url(../../assets/images/bgcontent3.png);
-    background-repeat: no-repeat;
-    height: calc(100vh - 80px);
-    background-size: cover;
-    background-position: center;
-}
-
 .card-img {
     display: flex;
     justify-content: center;
@@ -1027,13 +997,6 @@ body {
 
 @media screen and (max-width:960px) {
 
-    .conimage {
-        background-image: url(../../assets/images/bgcontent3.png);
-        background-repeat: no-repeat;
-        height: auto;
-        background-size: cover;
-    }
-
     .card-con h2 {
         font-size: 2rem;
         font-weight: bold;
@@ -1047,13 +1010,6 @@ body {
 }
 
 @media screen and (max-width:540px) {
-    .conimage {
-        background-image: url(../../assets/images/bgcontent3.png);
-        background-repeat: no-repeat;
-        height: auto;
-        background-size: cover;
-    }
-
     .card-con-box {
         background-color: #F2F3F5;
         height: 100%;
@@ -1197,16 +1153,6 @@ body {
 /* -------------------------- End Content --------------------------  */
 
 /* -------------------------- Start FAQS --------------------------  */
-.bg-FAQS {
-    background-image: url(../../assets/images/bgFAQS.png);
-    background-repeat: no-repeat;
-    /* height: 100%;
-    width: 100%; */
-    background-size: cover;
-    background-position: center;
-
-}
-
 .wrapper-FAQS {
     width: 100%;
     margin: 0 auto;
