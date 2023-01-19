@@ -1,24 +1,21 @@
-import "./App.css";
-import Banner from "./components/Banner";
-import Content from "./components/Content";
-import Insight from "./components/Insight";
-import Build from "./components/Build";
-import Partners from "./components/Partners";
-import FAQS from "./components/FAQS";
-import Footer from "./components/Footer";
+import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.css";
 
-function App() {
-  return (
-    <>
-      <Banner />
-      <Content />
-      <Insight />
-      <Build />
-      <Partners />
-      <FAQS />
-      <Footer />
-    </>
-  );
+import Home from "./pages/index";
+import Register from "./pages/register";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
+  },
+]);
+
+export default function BasicExample() {
+  return <RouterProvider router={router} />;
 }
-
-export default App;

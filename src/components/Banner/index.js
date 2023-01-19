@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import Logo from "../../assets/images/logo.svg";
 import { Link } from "react-scroll";
@@ -6,7 +6,11 @@ import { BsMouse } from "react-icons/bs";
 
 function Banner() {
   const [active, setActive] = useState(false);
-  const handleSetActive = () => setActive(false);
+  const handleActiveLink = (number) => {
+    if (number) {
+      setActive(true);
+    }
+  };
   let data = {
     title1: "BRING FUTURE CUSTOMERS",
     title2: "TO YOUR BUSINESS WITH INSIGTH.",
@@ -15,10 +19,44 @@ function Banner() {
       "ครบวงจร ใช้งานง่าย รองรับทุกแพลตฟอร์ม ครอบคลุมฐานข้อมูลลูกค้ากว่า 5 ล้านคน ตอบโจทย์ทุกความต้องการของธุรกิจคุณ  ด้วย 4 บริการหลัก",
   };
 
+  const toggleNavbar = () => {
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+
+      document.getElementById("navbar").style.backgroundColor = "transparent";
+      if (currentScrollPos < 500) {
+        document.getElementById("navbar").style.top = "0";
+        document.getElementById("navbar").style.backgroundColor = "transparent";
+        document.getElementById("navbar").style.boxShadow = "unset";
+      } else {
+        if (window.innerWidth < 992) {
+          document.getElementById("navbar").style.backgroundColor = "#000000";
+        }
+        document.getElementById("navbar").style.backgroundColor = "#000000";
+        document.getElementById("navbar").style.boxShadow =
+          "-5px -5px 20px #F2F3F7, 5px 5px 15px #3a3a3a7e";
+      }
+      prevScrollpos = currentScrollPos;
+    };
+  };
+
+  const toggleShowNavbar = () => {
+    document.getElementById("navbar").style.backgroundColor = "#000000";
+  };
+
+  const toggleRemoveNavbar = () => {
+    document.getElementById("navbarSupportedContent").classList.remove("show");
+  };
+
+  useEffect(() => {
+    toggleNavbar();
+  }, []);
+
   return (
     <>
-      <div className="bannerimage">
-        <nav className="navbar navbar-expand-lg navbar-dark">
+      <div className="bannerimage position-relative">
+        <nav className="navbar navbar-expand-lg navbar-dark" id="navbar">
           <div className="container my-3">
             <a className="navbar-brand" href="/">
               <img src={Logo} className="rounded float-start" alt="..." />
@@ -31,6 +69,9 @@ function Banner() {
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
+              onClick={() => {
+                toggleShowNavbar();
+              }}
             >
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -48,7 +89,10 @@ function Banner() {
                       smooth={true}
                       offset={50}
                       duration={500}
-                      onSetActive={handleSetActive}
+                      onClick={() => {
+                        handleActiveLink(1);
+                        toggleRemoveNavbar();
+                      }}
                       href="/"
                     >
                       Home
@@ -62,7 +106,10 @@ function Banner() {
                       smooth={true}
                       offset={50}
                       duration={500}
-                      onSetActive={handleSetActive}
+                      onClick={() => {
+                        handleActiveLink(2);
+                        toggleRemoveNavbar();
+                      }}
                       href="/"
                     >
                       Service
@@ -76,7 +123,10 @@ function Banner() {
                       smooth={true}
                       offset={50}
                       duration={500}
-                      onSetActive={handleSetActive}
+                      onClick={() => {
+                        handleActiveLink(3);
+                        toggleRemoveNavbar();
+                      }}
                       href="/"
                     >
                       Benefit
@@ -90,7 +140,10 @@ function Banner() {
                       smooth={true}
                       offset={50}
                       duration={500}
-                      onSetActive={handleSetActive}
+                      onClick={() => {
+                        handleActiveLink(4);
+                        toggleRemoveNavbar();
+                      }}
                       href="/"
                     >
                       Partner
@@ -104,7 +157,10 @@ function Banner() {
                       smooth={true}
                       offset={50}
                       duration={500}
-                      onSetActive={handleSetActive}
+                      onClick={() => {
+                        handleActiveLink(5);
+                        toggleRemoveNavbar();
+                      }}
                       href="/"
                     >
                       FAQs
@@ -141,9 +197,12 @@ function Banner() {
               <h3>{data.title2}</h3>
             </div>
             <div className="text-light Banner">
-              {" "}
               <button type="button" className="btn-danger rounded-pill btn-get">
-                <a href="/" style={{ textDecoration: "none", color: "#fff" }}>
+                <a
+                  href="https://uat.mcardbiz.com/login"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
                   Get Started
                 </a>
               </button>
@@ -156,20 +215,24 @@ function Banner() {
                 smooth={true}
                 offset={50}
                 duration={500}
-                onSetActive={handleSetActive}
                 href="/"
               >
                 <BsMouse className="icon-mousedown mb-2"></BsMouse>
                 <p className="writing-mode">More Info</p>
               </Link>
             </div>
+          </div>
+        </div>
 
-            <div className="box-card-banner">
-              <div className="row">
-                <div>
-                  <h1 className="title-card-banner mb-2">{data.titleB1}</h1>
-                  <p className="card-Text">{data.titleB2}</p>
-                </div>
+        <div
+          className="d-flex justify-content-center align-items-center position-absolute w-100 px-3 px-lg-0"
+          style={{ bottom: "-20px" }}
+        >
+          <div className="box-card-banner">
+            <div className="row">
+              <div>
+                <h1 className="title-card-banner mb-2">{data.titleB1}</h1>
+                <p className="card-Text">{data.titleB2}</p>
               </div>
             </div>
           </div>

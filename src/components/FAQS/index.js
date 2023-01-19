@@ -52,42 +52,46 @@ function FAQS() {
   };
   return (
     <>
-      <div className="container" id="FAQs">
-        <div className="container-FAQS">
-          <div className="mb-3">
-            <h1 className="fw-bold">FAQS</h1>
-          </div>
-          <div className="row">
-            {data.map((data, i) => (
-              <div className="col-12 col-md-6">
-                <div className="item-FAQS shadow-FAQS">
-                  <div className="title-FAQS">
-                    <p
-                      className={`m-0 ${
-                        selected === i ? "" : "text-wrap-1row "
-                      }`}
+      <div id="FAQs"></div>
+      <div className="box-content-margin box-bg-line-4 position-relative">
+        <div className="container" style={{ marginTop: "60px" }}>
+          <div className="container-FAQS">
+            <div className="mb-3">
+              <h1 className="fw-bold">FAQS</h1>
+            </div>
+            <div className="row">
+              {data.map((data, i) => (
+                <div
+                  className="col-12 col-md-6"
+                  onClick={() => toggle(i)}
+                  type="button"
+                >
+                  <div className="item-FAQS shadow-FAQS">
+                    <div className="title-FAQS">
+                      <p
+                        className={`m-0 ${
+                          selected === i ? "" : "text-wrap-1row "
+                        }`}
+                      >
+                        {data.title}
+                      </p>
+                      <button className="btn-FAQS shadow-FAQS-btn">
+                        {selected === i ? "-" : "+"}
+                      </button>
+                    </div>
+                    <div
+                      className={
+                        selected === i
+                          ? "content-FAQS show lorem-FAQS mt-2 "
+                          : "content-FAQS"
+                      }
                     >
-                      {data.title}
-                    </p>
-                    <button
-                      className="btn-FAQS shadow-FAQS-btn"
-                      onClick={() => toggle(i)}
-                    >
-                      {selected === i ? "-" : "+"}
-                    </button>
-                  </div>
-                  <div
-                    className={
-                      selected === i
-                        ? "content-FAQS show lorem-FAQS mt-2 "
-                        : "content-FAQS"
-                    }
-                  >
-                    <p style={{ color: "#8490A4" }}>{data.detail}</p>
+                      <p style={{ color: "#8490A4" }}>{data.detail}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>

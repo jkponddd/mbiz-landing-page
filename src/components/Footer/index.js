@@ -29,22 +29,34 @@ function Footer() {
                   </li>
                 </ul>
                 <div className="col item social mt-3">
-                  <a href="/">
+                  <a
+                    href="https://www.facebook.com/mcardforall/"
+                    target="_blank"
+                  >
                     <i className="icon-footer">
                       <FaFacebookF />
                     </i>
                   </a>
-                  <a href="/">
+                  <a
+                    href="https://www.instagram.com/mcard.for.all/"
+                    target="_blank"
+                  >
                     <i className="icon-footer">
                       <FaInstagram />
                     </i>
                   </a>
-                  <a href="/">
+                  <a
+                    href="https://www.youtube.com/@TheMallGroup/"
+                    target="_blank"
+                  >
                     <i className="icon-footer">
                       <FaYoutube />
                     </i>
                   </a>
-                  <a href="/">
+                  <a
+                    href="https://www.tiktok.com/@themallgroup/"
+                    target="_blank"
+                  >
                     <i className="icon-footer">
                       <FaTiktok />
                     </i>
@@ -83,13 +95,20 @@ function Footer() {
                 <h3>Contact Us</h3>
                 <ul>
                   <li className="mb-3">
-                    <a href="/">Email join-@themall.co.th</a>
+                    <a href="mailto:join-@themall.co.th">
+                      Email join-@themall.co.th
+                    </a>
                   </li>
                   <li className="mb-3">
-                    <a href="/">Phone +(66) 8 980 - 3049</a>
+                    <a href="tel:02-789-5555">Phone 02-789-5555</a>
                   </li>
                   <li className="mb-3">
-                    <a href="/">Address Themall Bangkok</a>
+                    <a
+                      href="https://www.themall.co.th/th/contact-us/"
+                      target="_blank"
+                    >
+                      Address Themall Bangkok
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -100,9 +119,31 @@ function Footer() {
               <div className="foot-end item text m-0">
                 <p>© 2022 Mbusiness. All rights reserved.</p>
                 <div className="foot-text item text m-0">
-                  <p>Term and Conditions</p>
+                  <ul>
+                    <li>
+                      <p style={{ fontSize: "16px" }}>
+                        <a
+                          href="https://www.themall.co.th/th/privacy-partner"
+                          target="_blank"
+                        >
+                          Term and Conditions
+                        </a>
+                      </p>
+                    </li>
+                  </ul>
                   <p>|</p>
-                  <p>Privacy Policy</p>
+                  <ul>
+                    <li>
+                      <p style={{ fontSize: "16px" }}>
+                        <a
+                          href="https://www.themall.co.th/th/privacy-policies/"
+                          target="_blank"
+                        >
+                          Privacy Policy
+                        </a>
+                      </p>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

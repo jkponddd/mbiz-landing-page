@@ -41,12 +41,9 @@ function Content() {
 
   return (
     <>
-      <div className="content-bg">
+      <div className="content-bg" id="Service">
         <div className="py-5 h-100">
-          <div
-            className="d-flex flex-column justify-content-between h-100"
-            id="Service"
-          >
+          <div className="d-flex flex-column justify-content-between h-100">
             <div
               className="container px-3 p-sm-0"
               style={{ marginTop: "140px" }}

@@ -8,6 +8,8 @@ import bse_1 from "../../assets/images/build-sale-engagement/build-sale-engageme
 import bse_2 from "../../assets/images/build-sale-engagement/build-sale-engagement_2.svg";
 import bse_3 from "../../assets/images/build-sale-engagement/build-sale-engagement_3.svg";
 
+import star_3 from "../../assets/images/star/star_3.svg";
+
 function Build() {
   let data = {
     title: "BUILD SALE & ENGAGEMENT",
@@ -24,105 +26,123 @@ function Build() {
   const [checkTabs, setCheckTabs] = useState(1);
   return (
     <>
-      <div className="container">
-        <div className="container box-insight-padding">
-          <div className="box-title-insight">
-            <div>
-              <h1 className="box-text-insight">{data.title}</h1>
-            </div>
-            <div className="card-Insight-out">
-              <div className="card-Insight my-3 ms-0 ms-lg-3">
-                <button
-                  className={`btn-Insight ${checkTabs === 1 ? "active" : ""}`}
-                  onClick={() => {
-                    setCheckTabs(1);
-                  }}
-                >
-                  <div>
-                    <img className="img-Insight" src={EarnBurn} alt="..." />
-                  </div>
-                  <p className="card-text">M-Point Earn & Burn</p>
-                </button>
+      <div className="box-bg-content">
+        <img className="box-star-3" src={star_3} alt="..." />
+      </div>
+      <div className="box-content-margin box-bg-line-3 position-relative">
+        <div className="container">
+          <div className="container box-insight-padding">
+            <div className="box-title-insight">
+              <div>
+                <h1 className="box-text-insight">{data.title}</h1>
               </div>
-              <div className="card-Insight my-3 ms-0 ms-lg-3">
-                <button
-                  className={`btn-Insight ${checkTabs === 2 ? "active" : ""}`}
-                  onClick={() => {
-                    setCheckTabs(2);
-                  }}
-                >
-                  <div>
-                    <img className="img-Insight" src={MStamp} alt="..." />
-                  </div>
-                  <p className="card-text">M-Stamp</p>
-                </button>
-              </div>
-              <div className="card-Insight my-3 ms-0 ms-lg-3">
-                <button
-                  className={`btn-Insight ${checkTabs === 3 ? "active" : ""}`}
-                  onClick={() => {
-                    setCheckTabs(3);
-                  }}
-                >
-                  <div>
-                    <img className="img-Insight" src={MCoupon} alt="..." />
-                  </div>
-                  <p className="card-text">M-Coupon</p>
-                </button>
+              <div className="card-Insight-out">
+                <div className="card-Insight my-3 ms-0 ms-lg-3">
+                  <button
+                    className={`btn-Insight ${checkTabs === 1 ? "active" : ""}`}
+                    onClick={() => {
+                      setCheckTabs(1);
+                    }}
+                  >
+                    <div>
+                      <img className="img-Insight" src={EarnBurn} alt="..." />
+                    </div>
+                    <p className="card-text">M-Point Earn & Burn</p>
+                  </button>
+                </div>
+                <div className="card-Insight my-3 ms-0 ms-lg-3">
+                  <button
+                    className={`btn-Insight ${checkTabs === 2 ? "active" : ""}`}
+                    onClick={() => {
+                      setCheckTabs(2);
+                    }}
+                  >
+                    <div>
+                      <img className="img-Insight" src={MStamp} alt="..." />
+                    </div>
+                    <p className="card-text">M-Stamp</p>
+                  </button>
+                </div>
+                <div className="card-Insight my-3 ms-0 ms-lg-3">
+                  <button
+                    className={`btn-Insight ${checkTabs === 3 ? "active" : ""}`}
+                    onClick={() => {
+                      setCheckTabs(3);
+                    }}
+                  >
+                    <div>
+                      <img className="img-Insight" src={MCoupon} alt="..." />
+                    </div>
+                    <p className="card-text">M-Coupon</p>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
+          <div className="container">
+            {checkTabs === 1 ? (
+              <>
+                <div className="row align-items-center">
+                  <div className="col-12 col-md-6">
+                    <img className="box-build-image" src={bse_1} alt=""></img>
+                  </div>
+                  <div className="col-12 col-md-6">
+                    <div className="card-Insight-bottom">
+                      <div className="card card-Insight-btm shadow-Insight">
+                        <h2 className="card-Insight-Text">{data.title_1}</h2>
+                        <p className="card-Insight-Text">{data.detail_1}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : checkTabs === 2 ? (
+              <>
+                <div className="row align-items-center">
+                  <div className="col-12 col-md-6">
+                    <img className="box-build-image" src={bse_2} alt=""></img>
+                  </div>
+                  <div className="col-12 col-md-6">
+                    <div className="card-Insight-bottom">
+                      <div className="card card-Insight-btm shadow-Insight">
+                        <h2 className="card-Insight-Text">{data.title_2}</h2>
+                        <p className="card-Insight-Text">{data.detail_2}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="row align-items-center">
+                  <div className="col-12 col-md-6">
+                    <img className="box-build-image" src={bse_3} alt=""></img>
+                  </div>
+                  <div className="col-12 col-md-6">
+                    <div className="card-Insight-bottom">
+                      <div className="card card-Insight-btm shadow-Insight">
+                        <h2 className="card-Insight-Text">{data.title_3}</h2>
+                        <p className="card-Insight-Text">{data.detail_3}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </>
+            )}
+          </div>
         </div>
-        <div className="container">
-          {checkTabs === 1 ? (
-            <>
-              <div className="row align-items-center">
-                <div className="col-12 col-md-6">
-                  <div className="card-Insight-bottom">
-                    <div className="card card-Insight-btm shadow-Insight">
-                      <h2 className="card-Insight-Text">{data.title_1}</h2>
-                      <p className="card-Insight-Text">{data.detail_1}</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-6">
-                  <img className="box-build-image" src={bse_1} alt=""></img>
-                </div>
-              </div>
-            </>
-          ) : checkTabs === 2 ? (
-            <>
-              <div className="row align-items-center">
-                <div className="col-12 col-md-6">
-                  <div className="card-Insight-bottom">
-                    <div className="card card-Insight-btm shadow-Insight">
-                      <h2 className="card-Insight-Text">{data.title_2}</h2>
-                      <p className="card-Insight-Text">{data.detail_2}</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-6">
-                  <img className="box-build-image" src={bse_2} alt=""></img>
-                </div>
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="row align-items-center">
-                <div className="col-12 col-md-6">
-                  <div className="card-Insight-bottom">
-                    <div className="card card-Insight-btm shadow-Insight">
-                      <h2 className="card-Insight-Text">{data.title_3}</h2>
-                      <p className="card-Insight-Text">{data.detail_3}</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-6">
-                  <img className="box-build-image" src={bse_3} alt=""></img>
-                </div>
-              </div>
-            </>
-          )}
+        <div className="d-flex justify-content-center position-absolute w-100 align-items-end bottom-0">
+          <div className="text-light Banner w-100 d-flex justify-content-center">
+            <button type="button" className="btn-danger rounded-pill btn-get">
+              <a
+                href="https://uat.mcardbiz.com/login"
+                target="_blank"
+                style={{ textDecoration: "none", color: "#fff" }}
+              >
+                Join with Mbiz
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </>

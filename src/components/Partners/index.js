@@ -223,14 +223,11 @@ function Partners() {
   const [checkTabs, setCheckTabs] = useState(1);
   return (
     <>
-      <div
-        className="bg-Partners"
-        id="Partner"
-        style={{ height: "auto", width: "100%" }}
-      >
+      <div id="Partner"></div>
+      <div className="bg-Partners">
         <div className="container">
           <div className="Partners flex-column align-items-center ">
-            <div className="box-title-insight">
+            <div className="box-title-insight" style={{ marginTop: "100px" }}>
               <div>
                 <h1 className="box-text-insight">{data.title}</h1>
               </div>
@@ -355,7 +352,7 @@ function Partners() {
             )}
           </div>
         </div>
-        <div style={{ marginBottom: "100px" }}>
+        <div style={{ marginBottom: "80px" }}>
           <Carousel
             swipeable={false}
             draggable={true}
