@@ -297,7 +297,7 @@ function Register() {
                     <input
                       type="email"
                       className="form-control form-input-custom"
-                      placeholder="ฮีเมลร้านค้าหรือบริษัท"
+                      placeholder="อีเมลร้านค้าหรือบริษัท"
                       required
                     />
                   </div>
