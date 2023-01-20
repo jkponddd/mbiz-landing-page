@@ -104,6 +104,16 @@ body {
     box-shadow: 0 0 0 0.25rem rgb(225 83 97 / 50%);
 }
 
+.bottom-custom {
+    bottom: -20px;
+}
+
+@media (max-width: 1024px) {
+    .bottom-custom {
+        bottom: -60px;
+    }
+}
+
 /* -------------------------- End Templete --------------------------  */
 
 /* -------------------------- Start Banner --------------------------  */

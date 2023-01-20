@@ -223,10 +223,7 @@ function Banner() {
           </div>
         </div>
 
-        <div
-          className="d-flex justify-content-center align-items-center position-absolute w-100 px-3 px-lg-0"
-          style={{ bottom: "-20px" }}
-        >
+        <div className="d-flex justify-content-center align-items-center position-absolute w-100 px-3 px-lg-0 bottom-custom">
           <div className="box-card-banner">
             <div className="row">
               <div>
